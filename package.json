@@ -1,0 +1,11 @@
+{
+    "name": "terraform-linktree-pages",
+    "version": "0.0.1",
+    "scripts": {
+        "postinstall": "terraform init",
+        "build": "terraform apply --auto-approve"
+    },
+    "dependencies": {
+        "@jahed/terraform": "^1.0.4"
+    }
+}
